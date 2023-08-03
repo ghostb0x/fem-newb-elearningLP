@@ -28,9 +28,10 @@ const GridTitleCard = styled.div`
   border-radius: 10px;
 `;
 
-const Title = styled.h4`
-  font: var(--font-body-s);
+const Title = styled.h2`
+  font: var(--font-h4);
   color: var(--color-white);
+  line-height: 2rem;
 `;
 
 const GridCards = styled.div``;

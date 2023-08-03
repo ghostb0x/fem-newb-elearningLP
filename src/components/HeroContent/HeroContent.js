@@ -18,12 +18,14 @@ function HeroContent() {
 const Wrapper = styled.div``;
 
 const H1 = styled.h1`
-  font: var(--font-h1);
+  font: var(--font-h2);
 `;
 
 const Paragraph = styled.p`
   margin: 26px 0 24px 0;
-  font: var(--font-p);
+  font: var(--font-body-s);
+  color: var(--color-lightGray);
+  line-height: 26px;
 `;
 
 const HeroButton = styled(Button)`

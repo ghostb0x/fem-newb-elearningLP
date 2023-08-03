@@ -6,7 +6,7 @@ function Footer() {
   return (
     <FooterWrapper>
         <picture>
-          <img
+          <FooterLogo
             src={'/assets/logo-light.svg'}
             alt="Skilled company logo"
           />
@@ -24,6 +24,10 @@ const FooterWrapper = styled.footer`
   justify-content: space-between;
   align-items: center;
   padding: 36px 16px;
+`;
+
+const FooterLogo = styled.img`
+  width: 89px;
 `;
 
 const FooterButton = styled(Button)`

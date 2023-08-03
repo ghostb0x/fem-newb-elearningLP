@@ -1,7 +1,7 @@
 export const COLORS = {
   white: 'hsl(0deg 0% 100%)',
   offblack: 'hsl(233deg 54% 16%)',
-  fontlight: 'hsl(232deg 10% 56%)',
+  lightGray: 'hsl(232deg 10% 56%)',
   hotPink: 'hsl(341deg 92% 62%)',
   mainBackground: {
     'gradientstart': '#FFF',

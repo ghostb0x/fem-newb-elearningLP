@@ -52,6 +52,7 @@ html {
   --color-hotPink: ${COLORS.hotPink};
   --color-white: ${COLORS.white};
   --color-offblack: ${COLORS.offblack};
+  --color-lightGray: ${COLORS.lightGray};
   --color-main-background: linear-gradient(${COLORS.mainBackground.gradientstart}, ${COLORS.mainBackground.gradientend});
   --button-1-idle: ${COLORS.button[1].idle};
   --button-1-hover: ${COLORS.button[1].hover};
@@ -98,11 +99,12 @@ html {
   --font-h2: normal var(--font-weight-bold) 2.5rem/normal Plus Jakarta Sans;
   --font-h3: normal var(--font-weight-bold) 2rem/2.5rem Plus Jakarta Sans;
   --font-h4: normal var(--font-weight-bold) 1.5rem/normal Plus Jakarta Sans;
+  --font-mobile-h3: normal var(--font-weight-bold) 1.25rem/normal Plus Jakarta Sans;
   --font-button-desktop: normal var(--font-weight-medium) 1.125rem/1.75rem Plus Jakarta Sans;
   --font-button-mobile: normal var(--font-weight-medium) 1rem/1.75rem Plus Jakarta Sans;
   
   --font-body-m: normal var(--font-weight-normal) 1.125rem/1.75rem Plus Jakarta Sans;
-  --font-body-s: normal var(--font-weight-medium) 1rem/1.75rem Plus Jakarta Sans;
+  --font-body-s: normal var(--font-weight-normal) 1rem/1.75rem Plus Jakarta Sans;
 }
 
 

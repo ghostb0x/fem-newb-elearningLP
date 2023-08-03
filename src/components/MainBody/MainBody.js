@@ -16,14 +16,14 @@ function MainBody() {
   );
 }
 
-const MainBodyGrid = styled.div`
-  margin-left: 16px;
-  margin-right: 16px;
-`;
-
 const MaxWidthWrapper = styled.main`
   background: var(--color-main-background);
   padding-bottom: 80px;
 `;
 
+const MainBodyGrid = styled.div`
+  padding-top: 22px;
+  margin-left: 16px;
+  margin-right: 16px;
+`;
 export default MainBody;

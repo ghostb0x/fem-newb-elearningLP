@@ -28,19 +28,23 @@ const Icon = styled.img`
   margin-top: calc(var(--iconOffset) * -1px);
 `;
 
-const Title = styled.h4`
-  font: var(--font-h4);
+const Title = styled.h3`
+  font: var(--font-mobile-h3);
+  margin-top: calc(var(--iconOffset) * 1px);
 `;
 
 const Description = styled.p`
-  font: var(--font-p);
+  font: var(--font-body-s);
+  color: var(--color-lightGray);
   margin-top: 16px;
   margin-bottom: 24px;
 `;
 
 const CTAlink = styled.a`
   font: var(--font-body-m);
+  font-weight: var(--font-weight-medium);
   color: var(--color-hotPink);
+
 `;
 
 export default CourseCard;
