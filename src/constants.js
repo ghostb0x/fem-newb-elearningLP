@@ -1,23 +1,30 @@
 export const COLORS = {
   white: 'hsl(0deg 0% 100%)',
-  offblack: 'hsl(24deg 5% 6%)',
-  gray: {
-    100: 'hsl(40deg 12% 95%)',
-    300: 'hsl(35deg 8% 80%)',
-    500: 'hsl(30deg 4% 60%)',
-    700: 'hsl(28deg 5% 40%)',
-    900: 'hsl(24deg 6% 16%)',
+  offblack: 'hsl(233deg 54% 16%)',
+  fontlight: 'hsl(232deg 10% 56%)',
+  hotPink: 'hsl(341deg 92% 62%)',
+  mainBackground: {
+    'gradientstart': '#FFF',
+    'gradientend': '#F0F1FF',
   },
-  primary: 'hsl(224deg 30% 40%)',
-  secondary: 'hsl(180deg 34% 37%)',
-  urgent: 'hsl(0deg 55% 54%)',
+  button: {
+    1: {
+      'idle': 'hsl(233deg 54% 16%)',
+      'hover': 'hsl(234deg 25% 52%)',
+    },
+    2: {
+      'gradientstart': 'hsl(13deg 100% 64%)',
+      'gradientend': 'hsl(322deg 87% 55%)',
+      'gradientWhiteWash': 'rgba(255, 255, 255, 0.50)',
+    },
+    3: {
+      'gradientstart': 'hsl(237deg 100% 64%)',
+      'gradientend': 'hsl(322deg 87% 55%)',
+      'gradientWhiteWash': 'rgba(255, 255, 255, 0.50)',
+    }
+  },
 };
 
-export const WEIGHTS = {
-  normal: 400,
-  medium: 550,
-  bold: 700,
-};
 
 export const BREAKPOINTS = {
   tabletMin: 550,
@@ -35,8 +42,6 @@ export const QUERIES = {
 };
 
 export const FAMILIES = {
-  serif: '"Crimson Pro", Georgia, serif',
   sansSerif:
     '"Helvetica Neue", Helvetica, "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", sans-serif',
-  logo: 'Chomsky',
 };

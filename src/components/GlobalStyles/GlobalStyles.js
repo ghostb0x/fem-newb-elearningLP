@@ -49,24 +49,60 @@ table {
 
 /* DESIGN TOKENS */
 html {
+  --color-hotPink: ${COLORS.hotPink};
   --color-white: ${COLORS.white};
   --color-offblack: ${COLORS.offblack};
-  --color-gray-100: ${COLORS.gray[100]};
-  --color-gray-300: ${COLORS.gray[300]};
-  --color-gray-500: ${COLORS.gray[500]};
-  --color-gray-700: ${COLORS.gray[700]};
-  --color-gray-900: ${COLORS.gray[900]};
-  --color-primary: ${COLORS.primary};
-  --color-secondary: ${COLORS.secondary};
-  --color-urgent: ${COLORS.urgent};
+  --color-main-background: linear-gradient(${COLORS.mainBackground.gradientstart}, ${COLORS.mainBackground.gradientend});
+  --button-1-idle: ${COLORS.button[1].idle};
+  --button-1-hover: ${COLORS.button[1].hover};
+  --button-2-idle: 
+  linear-gradient(
+    ${COLORS.button[2].gradientstart}, 
+    ${COLORS.button[2].gradientend}
+  );
+  --button-2-hover: 
+    linear-gradient(
+      0deg,
+      ${COLORS.button[2].gradientWhiteWash},
+      ${COLORS.button[2].gradientWhiteWash}
+    ), 
+    linear-gradient(
+      ${COLORS.button[2].gradientstart}, 
+      ${COLORS.button[2].gradientend}
+    );
+    --button-3-idle: 
+  linear-gradient(
+    ${COLORS.button[3].gradientstart}, 
+    ${COLORS.button[3].gradientend}
+  );
+  --button-3-hover: 
+    linear-gradient(
+      0deg,
+      ${COLORS.button[3].gradientWhiteWash},
+      ${COLORS.button[3].gradientWhiteWash}
+    ), 
+    linear-gradient(
+      ${COLORS.button[3].gradientstart}, 
+      ${COLORS.button[3].gradientend}
+    );
+ 
+  --font-weight-normal: 500;
+  --font-weight-medium: 700;
+  --font-weight-bold: 800;
 
-  --font-weight-normal: ${WEIGHTS.normal};
-  --font-weight-medium: ${WEIGHTS.medium};
-  --font-weight-bold: ${WEIGHTS.bold};
-
-  --font-family-serif: ${FAMILIES.serif};
   --font-family-sans-serif: ${FAMILIES.sansSerif};
-  --font-family-logo: ${FAMILIES.logo};
+
+  /* font shorthand follows pattern: 
+  font-style font-weight font-size/line-height font-family */
+  --font-h1: normal var(--font-weight-bold) 3.5rem/normal Plus Jakarta Sans;
+  --font-h2: normal var(--font-weight-bold) 2.5rem/normal Plus Jakarta Sans;
+  --font-h3: normal var(--font-weight-bold) 2rem/2.5rem Plus Jakarta Sans;
+  --font-h4: normal var(--font-weight-bold) 1.5rem/normal Plus Jakarta Sans;
+  --font-button-desktop: normal var(--font-weight-medium) 1.125rem/1.75rem Plus Jakarta Sans;
+  --font-button-mobile: normal var(--font-weight-medium) 1rem/1.75rem Plus Jakarta Sans;
+  
+  --font-body-m: normal var(--font-weight-normal) 1.125rem/1.75rem Plus Jakarta Sans;
+  --font-body-s: normal var(--font-weight-medium) 1rem/1.75rem Plus Jakarta Sans;
 }
 
 
