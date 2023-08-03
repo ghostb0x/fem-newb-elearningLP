@@ -58,18 +58,18 @@ const CTAlink = styled.a`
   font: var(--font-body-m);
   font-weight: var(--font-weight-medium);
   color: var(--color-hotPink);
-  
 
   @media ${QUERIES.tabletAndUp} {
-    opacity: 0;
+    position: absolute;
+    left: 32px;
+    bottom: 32px;
   }
 `;
 
+// This is to create space in-flow, so container doesn't collapse when CTAlink is positioned absolutely
 const CTAlinkInvis = styled(CTAlink)`
-  opacity: 1;
-  position: absolute;
-  left: 32px;
-  bottom: 32px;
+  position: relative;
+  opacity: 0;
 `;
 
 export default CourseCard;

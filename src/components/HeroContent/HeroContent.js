@@ -1,6 +1,7 @@
 import React from 'react';
 import { styled } from 'styled-components';
 import Button from '../Button/Button';
+import { QUERIES } from '../../constants';
 
 function HeroContent() {
   return (
@@ -15,7 +16,13 @@ function HeroContent() {
   );
 }
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  @media ${QUERIES.tabletAndUp} {
+    margin-right: 30px;
+    margin-bottom: 50px;
+    
+  }
+`;
 
 const H1 = styled.h1`
   font: var(--font-h2);

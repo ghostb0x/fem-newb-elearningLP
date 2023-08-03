@@ -36,6 +36,7 @@ const Logo = styled.img`
 `;
 
 const HeaderButton = styled(Button)`
+  z-index: 2;
   &:hover {
     background: var(--button-1-hover);
   }

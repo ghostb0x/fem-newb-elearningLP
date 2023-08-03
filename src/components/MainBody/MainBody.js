@@ -22,6 +22,12 @@ function MainBody() {
 const MaxWidthWrapper = styled.main`
   background: var(--color-main-background);
   padding-bottom: 80px;
+  z-index: 1;
+
+  @media ${QUERIES.tabletAndUp} {
+    overflow-x: clip;
+    
+  }
 `;
 
 const MainBodyGrid = styled.div`
@@ -30,13 +36,18 @@ const MainBodyGrid = styled.div`
   margin-right: 16px;
 
   @media ${QUERIES.tabletAndUp} {
+    padding-top: 76px;
     margin-left: 40px;
     margin-right: 40px;
   }
 `;
 
 const HeroSection = styled.div`
+@media ${QUERIES.tabletAndUp} {
   display: grid;
   grid-template-columns: 6fr 4fr;
+  
+} 
 `;
+
 export default MainBody;

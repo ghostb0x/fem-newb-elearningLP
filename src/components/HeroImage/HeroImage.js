@@ -71,15 +71,20 @@ function HeroImage() {
 
 const ImageWrapper = styled.div`
   width: 100%;
-  
 `;
 
 const FullWidthImg = styled.img`
   width: 100%;
+
+  @media ${QUERIES.tabletAndUp} {
+    width: 250%;
+    margin-left: -80px;
+    margin-top: clamp(-40vw, -1vw + 1rem, -30vw)
+  }
+
 `;
 
 const MobileImage = styled.picture`
-
   @media ${QUERIES.tabletAndUp} {
     display: none;
   }
@@ -89,7 +94,8 @@ const TabletImage = styled.picture`
   display: none;
 
   @media ${QUERIES.tabletAndUp} {
-    display: block;
+    display: flex;
+    max-width: 100%;
   }
 
   @media ${QUERIES.laptopAndUp} {
