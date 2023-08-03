@@ -1,17 +1,26 @@
-import React from "react";
-import { styled } from "styled-components";
+import React from 'react';
+import { styled } from 'styled-components';
+import { QUERIES } from '../../constants';
 
-function CourseCard( {id, title, description, startUrl, iconSrc, iconAltText}) {
+function CourseCard({
+  id,
+  title,
+  description,
+  startUrl,
+  iconSrc,
+  iconAltText,
+}) {
   return (
-
     <Article>
-      <Icon src={iconSrc} alt={iconAltText} />
+      <Icon
+        src={iconSrc}
+        alt={iconAltText}
+      />
       <Title>{title}</Title>
       <Description>{description}</Description>
       <CTAlink href={startUrl}> Get Started </CTAlink>
+      <CTAlinkInvis href={startUrl}> Get Started </CTAlinkInvis>
     </Article>
-
-
   );
 }
 
@@ -22,6 +31,11 @@ const Article = styled.article`
   border-radius: 10px;
   background-color: var(--color-white);
 
+  @media ${QUERIES.tabletAndUp} {
+    margin: 0;
+    padding: 0 32px 32px 32px;
+    position: relative;
+  }
 `;
 
 const Icon = styled.img`
@@ -44,7 +58,18 @@ const CTAlink = styled.a`
   font: var(--font-body-m);
   font-weight: var(--font-weight-medium);
   color: var(--color-hotPink);
+  
 
+  @media ${QUERIES.tabletAndUp} {
+    opacity: 0;
+  }
+`;
+
+const CTAlinkInvis = styled(CTAlink)`
+  opacity: 1;
+  position: absolute;
+  left: 32px;
+  bottom: 32px;
 `;
 
 export default CourseCard;

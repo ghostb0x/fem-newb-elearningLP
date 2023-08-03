@@ -100,11 +100,13 @@ html {
   --font-h3: normal var(--font-weight-bold) 2rem/2.5rem Plus Jakarta Sans;
   --font-h4: normal var(--font-weight-bold) 1.5rem/normal Plus Jakarta Sans;
   --font-mobile-h3: normal var(--font-weight-bold) 1.25rem/normal Plus Jakarta Sans;
+
+  --font-body-m: normal var(--font-weight-normal) 1.125rem/1.75rem Plus Jakarta Sans;
+  --font-body-s: normal var(--font-weight-normal) 1rem/1.6rem Plus Jakarta Sans;
+
   --font-button-desktop: normal var(--font-weight-medium) 1.125rem/1.75rem Plus Jakarta Sans;
   --font-button-mobile: normal var(--font-weight-medium) 1rem/1.75rem Plus Jakarta Sans;
   
-  --font-body-m: normal var(--font-weight-normal) 1.125rem/1.75rem Plus Jakarta Sans;
-  --font-body-s: normal var(--font-weight-normal) 1rem/1.75rem Plus Jakarta Sans;
 }
 
 

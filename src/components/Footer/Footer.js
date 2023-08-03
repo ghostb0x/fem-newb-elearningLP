@@ -1,6 +1,7 @@
 import React from 'react';
 import { styled } from 'styled-components';
 import Button from '../Button/Button';
+import { QUERIES } from '../../constants';
 
 function Footer() {
   return (
@@ -24,6 +25,11 @@ const FooterWrapper = styled.footer`
   justify-content: space-between;
   align-items: center;
   padding: 36px 16px;
+
+  @media ${QUERIES.tabletAndUp} {
+    padding: 36px 40px;
+    
+  }
 `;
 
 const FooterLogo = styled.img`
