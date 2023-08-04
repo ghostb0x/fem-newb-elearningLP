@@ -59,6 +59,10 @@ const CTAlink = styled.a`
   font-weight: var(--font-weight-medium);
   color: var(--color-hotPink);
 
+  &:hover {
+    color: var(--color-lightPink);
+  }
+
   @media ${QUERIES.tabletAndUp} {
     position: absolute;
     left: 32px;

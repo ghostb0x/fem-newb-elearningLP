@@ -3,6 +3,7 @@ export const COLORS = {
   offblack: 'hsl(233deg 54% 16%)',
   lightGray: 'hsl(232deg 10% 56%)',
   hotPink: 'hsl(341deg 92% 62%)',
+  lightPink: 'hsl(341deg 100% 83%)',
   mainBackground: {
     'gradientstart': '#FFF',
     'gradientend': '#F0F1FF',

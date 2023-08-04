@@ -50,6 +50,7 @@ table {
 /* DESIGN TOKENS */
 html {
   --color-hotPink: ${COLORS.hotPink};
+  --color-lightPink: ${COLORS.lightPink};
   --color-white: ${COLORS.white};
   --color-offblack: ${COLORS.offblack};
   --color-lightGray: ${COLORS.lightGray};

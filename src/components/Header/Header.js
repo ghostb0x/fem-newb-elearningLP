@@ -29,10 +29,19 @@ const HeaderWrapper = styled.header`
   @media ${QUERIES.tabletAndUp} {
     margin: 24px 40px;
   }
+
+  @media ${QUERIES.laptopAndUp} {
+    margin: 40px 165px;
+  }
 `;
 
 const Logo = styled.img`
   width: 89px;
+
+  @media ${QUERIES.laptopAndUp} {
+    width: 111px;
+    
+  }
 `;
 
 const HeaderButton = styled(Button)`
@@ -40,6 +49,8 @@ const HeaderButton = styled(Button)`
   &:hover {
     background: var(--button-1-hover);
   }
+
+  
 `;
 
 export default Header;

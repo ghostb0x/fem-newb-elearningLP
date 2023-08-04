@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components/macro';
+import { QUERIES } from '../../constants';
 
 function Button({ children, className }) {
   return (
@@ -16,9 +17,13 @@ const ButtonWrapper = styled.button`
   font: var(--font-button-mobile);
   color: var(--color-white);
   text-align: center;
-  /* &:hover {
-    background-color: var(--button-1-hover);
-  } */
+
+  @media ${QUERIES.laptopAndUp} {
+    width: 10.4375rem;
+    height: 3.5rem;
+    font: var(--font-button-desktop);
+  }
+
 `;
 
 export default Button;
