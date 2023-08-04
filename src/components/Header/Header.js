@@ -21,17 +21,16 @@ function Header() {
 
 const HeaderWrapper = styled.header`
   display: flex;
-  flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
-  margin: 16px;
+  padding: 16px;
 
   @media ${QUERIES.tabletAndUp} {
-    margin: 24px 40px;
+    padding: 24px 40px;
   }
 
   @media ${QUERIES.laptopAndUp} {
-    margin: 40px 165px;
+    padding: 40px 165px;
   }
 `;
 

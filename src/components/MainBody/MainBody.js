@@ -26,8 +26,9 @@ const MaxWidthWrapper = styled.main`
 
   @media ${QUERIES.tabletAndUp} {
     overflow-x: clip;
-    
   }
+
+
 `;
 
 const MainBodyGrid = styled.div`
@@ -40,6 +41,13 @@ const MainBodyGrid = styled.div`
     margin-left: 40px;
     margin-right: 40px;
   }
+
+  @media ${QUERIES.laptopAndUp} {
+    padding-top: 76px;
+    margin-left: 165px;
+    margin-right: 165px;
+    
+  }
 `;
 
 const HeroSection = styled.div`
@@ -48,6 +56,11 @@ const HeroSection = styled.div`
   grid-template-columns: 6fr 4fr;
   
 } 
+
+@media ${QUERIES.laptopAndUp} {
+  grid-template-columns: 4fr 6fr;
+  
+}
 `;
 
 export default MainBody;

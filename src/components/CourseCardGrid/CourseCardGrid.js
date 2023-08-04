@@ -27,6 +27,13 @@ const GridWrapper = styled.div`
     grid-template-columns: 1fr 1fr;
     gap: 56px 10px;
   }
+
+  @media ${QUERIES.laptopAndUp} {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px 30px;
+    
+  }
+  
 `;
 
 const GridTitleCard = styled.div`

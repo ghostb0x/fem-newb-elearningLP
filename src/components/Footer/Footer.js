@@ -28,12 +28,21 @@ const FooterWrapper = styled.footer`
 
   @media ${QUERIES.tabletAndUp} {
     padding: 36px 40px;
-    
+  }
+
+  @media ${QUERIES.laptopAndUp} {
+    padding: 40px 165px;
   }
 `;
 
 const FooterLogo = styled.img`
   width: 89px;
+
+
+  @media ${QUERIES.laptopAndUp} {
+    width: 111px;
+    
+  }
 `;
 
 const FooterButton = styled(Button)`
