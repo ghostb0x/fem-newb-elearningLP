@@ -6,15 +6,13 @@ import { QUERIES } from '../../constants';
 function Footer() {
   return (
     <FooterWrapper>
-        <picture>
-          <FooterLogo
-            src={'/assets/logo-light.svg'}
-            alt="Skilled company logo"
-          />
-        </picture>
-        <FooterButton>
-          Get Started
-        </FooterButton>
+      <picture>
+        <FooterLogo
+          src={'/assets/logo-light.svg'}
+          alt="Skilled company logo"
+        />
+      </picture>
+      <FooterButton>Get Started</FooterButton>
     </FooterWrapper>
   );
 }
@@ -38,10 +36,8 @@ const FooterWrapper = styled.footer`
 const FooterLogo = styled.img`
   width: 89px;
 
-
   @media ${QUERIES.laptopAndUp} {
     width: 111px;
-    
   }
 `;
 

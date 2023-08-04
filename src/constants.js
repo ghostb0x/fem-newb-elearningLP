@@ -5,27 +5,26 @@ export const COLORS = {
   hotPink: 'hsl(341deg 92% 62%)',
   lightPink: 'hsl(341deg 100% 83%)',
   mainBackground: {
-    'gradientstart': '#FFF',
-    'gradientend': '#F0F1FF',
+    gradientstart: '#FFF',
+    gradientend: '#F0F1FF',
   },
   button: {
     1: {
-      'idle': 'hsl(233deg 54% 16%)',
-      'hover': 'hsl(234deg 25% 52%)',
+      idle: 'hsl(233deg 54% 16%)',
+      hover: 'hsl(234deg 25% 52%)',
     },
     2: {
-      'gradientstart': 'hsl(13deg 100% 64%)',
-      'gradientend': 'hsl(322deg 87% 55%)',
-      'gradientWhiteWash': 'rgba(255, 255, 255, 0.50)',
+      gradientstart: 'hsl(13deg 100% 64%)',
+      gradientend: 'hsl(322deg 87% 55%)',
+      gradientWhiteWash: 'rgba(255, 255, 255, 0.50)',
     },
     3: {
-      'gradientstart': 'hsl(237deg 100% 64%)',
-      'gradientend': 'hsl(322deg 87% 55%)',
-      'gradientWhiteWash': 'rgba(255, 255, 255, 0.50)',
-    }
+      gradientstart: 'hsl(237deg 100% 64%)',
+      gradientend: 'hsl(322deg 87% 55%)',
+      gradientWhiteWash: 'rgba(255, 255, 255, 0.50)',
+    },
   },
 };
-
 
 export const BREAKPOINTS = {
   tabletMin: 660,

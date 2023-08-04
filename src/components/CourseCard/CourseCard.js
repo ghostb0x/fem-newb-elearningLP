@@ -45,6 +45,10 @@ const Icon = styled.img`
 const Title = styled.h3`
   font: var(--font-mobile-h3);
   margin-top: calc(var(--iconOffset) * 1px);
+
+  @media ${QUERIES.laptopAndUp} {
+    font: var(--font-h4);
+  }
 `;
 
 const Description = styled.p`
@@ -52,6 +56,9 @@ const Description = styled.p`
   color: var(--color-lightGray);
   margin-top: 16px;
   margin-bottom: 24px;
+  @media ${QUERIES.laptopAndUp} {
+    font: var(--font-body-m);
+  }
 `;
 
 const CTAlink = styled.a`

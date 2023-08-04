@@ -26,9 +26,12 @@ const MaxWidthWrapper = styled.main`
 
   @media ${QUERIES.tabletAndUp} {
     overflow-x: clip;
+    padding-bottom: 86px;
   }
 
-
+  @media ${QUERIES.laptopAndUp} {
+    padding-bottom: 140px;
+  }
 `;
 
 const MainBodyGrid = styled.div`
@@ -46,21 +49,18 @@ const MainBodyGrid = styled.div`
     padding-top: 130px;
     margin-left: 165px;
     margin-right: 165px;
-    
   }
 `;
 
 const HeroSection = styled.div`
-@media ${QUERIES.tabletAndUp} {
-  display: grid;
-  grid-template-columns: 6fr 4fr;
-  
-} 
+  @media ${QUERIES.tabletAndUp} {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+  }
 
-@media ${QUERIES.laptopAndUp} {
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  
-}
+  @media ${QUERIES.laptopAndUp} {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
 `;
 
 export default MainBody;

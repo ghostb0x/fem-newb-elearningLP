@@ -39,7 +39,6 @@ const Logo = styled.img`
 
   @media ${QUERIES.laptopAndUp} {
     width: 111px;
-    
   }
 `;
 
@@ -48,8 +47,6 @@ const HeaderButton = styled(Button)`
   &:hover {
     background: var(--button-1-hover);
   }
-
-  
 `;
 
 export default Header;

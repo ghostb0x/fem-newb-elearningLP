@@ -84,7 +84,7 @@ const FullWidthImg = styled.img`
 
   @media ${QUERIES.laptopAndUp} {
     width: 900px;
-    margin-left: clamp(.1rem, 17vw - 11.5rem, 5rem);
+    margin-left: clamp(0.1rem, 17vw - 11.5rem, 5rem);
     margin-top: clamp(-370px, -12vw + 4rem, -31vw);
   }
 `;

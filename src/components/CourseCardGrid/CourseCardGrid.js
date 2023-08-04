@@ -31,13 +31,11 @@ const GridWrapper = styled.div`
   @media ${QUERIES.laptopAndUp} {
     grid-template-columns: repeat(3, 1fr);
     gap: 80px 30px;
-    
   }
 
   @media ${QUERIES.laptopAndUp} {
     margin-top: 50px;
   }
-  
 `;
 
 const GridTitleCard = styled.div`
@@ -48,7 +46,6 @@ const GridTitleCard = styled.div`
 
   @media ${QUERIES.tabletAndUp} {
     padding: 56px 21px 0 32px;
-    
   }
 `;
 
@@ -56,6 +53,10 @@ const Title = styled.h2`
   font: var(--font-h4);
   color: var(--color-white);
   line-height: 2rem;
+
+  @media ${QUERIES.laptopAndUp} {
+    font: var(--font-h3);
+  }
 `;
 
 export default CourseCardGrid;

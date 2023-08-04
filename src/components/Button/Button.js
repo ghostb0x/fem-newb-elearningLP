@@ -4,9 +4,8 @@ import { QUERIES } from '../../constants';
 
 function Button({ children, className }) {
   return (
-  <ButtonWrapper className={className}>
-    {children}
-  </ButtonWrapper>);
+    <ButtonWrapper className={className}>{children}</ButtonWrapper>
+  );
 }
 
 const ButtonWrapper = styled.button`
@@ -23,7 +22,6 @@ const ButtonWrapper = styled.button`
     height: 3.5rem;
     font: var(--font-button-desktop);
   }
-
 `;
 
 export default Button;

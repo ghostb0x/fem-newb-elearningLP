@@ -20,12 +20,15 @@ const Wrapper = styled.div`
   @media ${QUERIES.tabletAndUp} {
     margin-right: 30px;
     margin-bottom: 50px;
-    
   }
 `;
 
 const H1 = styled.h1`
   font: var(--font-h2);
+
+  @media ${QUERIES.laptopAndUp} {
+    font: var(--font-h1);
+  }
 `;
 
 const Paragraph = styled.p`
@@ -33,6 +36,10 @@ const Paragraph = styled.p`
   font: var(--font-body-s);
   color: var(--color-lightGray);
   line-height: 26px;
+
+  @media ${QUERIES.laptopAndUp} {
+    font: var(--font-body-m);
+  }
 `;
 
 const HeroButton = styled(Button)`
@@ -40,10 +47,9 @@ const HeroButton = styled(Button)`
   width: 10.4375rem;
   height: 3.5rem;
   border-radius: 31.5px;
-  &:hover{
-    background: var(--button-2-hover)
+  &:hover {
+    background: var(--button-2-hover);
   }
 `;
-
 
 export default HeroContent;
