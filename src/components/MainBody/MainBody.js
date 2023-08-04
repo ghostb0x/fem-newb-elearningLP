@@ -43,7 +43,7 @@ const MainBodyGrid = styled.div`
   }
 
   @media ${QUERIES.laptopAndUp} {
-    padding-top: 76px;
+    padding-top: 130px;
     margin-left: 165px;
     margin-right: 165px;
     
@@ -58,7 +58,7 @@ const HeroSection = styled.div`
 } 
 
 @media ${QUERIES.laptopAndUp} {
-  grid-template-columns: 4fr 6fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   
 }
 `;

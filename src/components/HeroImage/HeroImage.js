@@ -79,9 +79,14 @@ const FullWidthImg = styled.img`
   @media ${QUERIES.tabletAndUp} {
     width: 250%;
     margin-left: -80px;
-    margin-top: clamp(-40vw, -1vw + 1rem, -30vw)
+    margin-top: clamp(-40vw, -1vw + 1rem, -30vw);
   }
 
+  @media ${QUERIES.laptopAndUp} {
+    width: 900px;
+    margin-left: clamp(.1rem, 17vw - 11.5rem, 5rem);
+    margin-top: clamp(-370px, -12vw + 4rem, -31vw);
+  }
 `;
 
 const MobileImage = styled.picture`

@@ -33,6 +33,10 @@ const GridWrapper = styled.div`
     gap: 80px 30px;
     
   }
+
+  @media ${QUERIES.laptopAndUp} {
+    margin-top: 50px;
+  }
   
 `;
 
