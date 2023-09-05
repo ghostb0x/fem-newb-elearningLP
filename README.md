@@ -14,4 +14,4 @@ This is my default way of building anything at present, as I have a customized b
 
 ## Hosted on GitHub Pages
 
-(Check out the live page)[https://www.frontendmentor.io/solutions/responsive-page-with-react-styledcomponents-7JCe_jaNfl] to get a feel for the responsive styles!
+[Check out the live page](https://www.frontendmentor.io/solutions/responsive-page-with-react-styledcomponents-7JCe_jaNfl) to get a feel for the responsive styles!
