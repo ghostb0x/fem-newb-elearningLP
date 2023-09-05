@@ -1,4 +1,4 @@
-# Typemaster Landing Page - Design from [Frontendmentor.io](https://www.frontendmentor.io) 
+# E-Learning Landing Page - Design from [Frontendmentor.io](https://www.frontendmentor.io) 
 
 This project uses a design from Frontend Mentor, which creates coding challenges for front end dev practice.
 
